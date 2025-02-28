@@ -5,6 +5,11 @@ This is a stealth-based game built using the Unity engine. The game features an 
 
 The project was created to practice implementing AI behaviors and working with lighting in Unity. It uses asset store art assets for the game's visuals, allowing the development focus to remain on gameplay mechanics.
 
+![image](https://github.com/user-attachments/assets/cd035531-37e3-4c02-aa8a-48849288e7ff)
+
+![stealth_dungeon_gif](https://github.com/user-attachments/assets/e9ba0d1d-467d-4282-8e51-cea7e75a2156)
+
+
 ## Features
 - **Isometric View**: The game is viewed from an isometric perspective, giving the player a clear overview of the environment.
 - **Player Movement**: Players can move the character using the standard WASD keys.

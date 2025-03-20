@@ -20,6 +20,11 @@ public class SaveManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        SetLastCheckpoint(0);
+    }
+
     private string GetFullFilePath()
     {
         return Application.persistentDataPath + "/game.json";

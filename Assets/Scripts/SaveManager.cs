@@ -32,12 +32,12 @@ public class SaveManager : MonoBehaviour
 
     public void Load()
     {
-        string filePath = GetFullFilePath();
-        if (File.Exists(filePath))
-        {
-            string data = File.ReadAllText(filePath);
-            gameState = JsonUtility.FromJson<GameState>(data);
-        }
+        //string filePath = GetFullFilePath();
+        //if (File.Exists(filePath))
+        //{
+        //    string data = File.ReadAllText(filePath);
+        //    gameState = JsonUtility.FromJson<GameState>(data);
+        //}
     }
     public void Save()
     {

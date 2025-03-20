@@ -15,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
 
     // Movement
     public float moveForce = 10.0f;
+    public float runMoveForce = 0.5f;
+    private float savedMoveForce = 0.05f;
     public float maxSpeed = 5.0f;
     public float drag = 0.9f;
 
@@ -29,6 +31,16 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            savedMoveForce = moveForce;
+            moveForce = runMoveForce;
+        }
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            moveForce = savedMoveForce;
+        }
+
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveZ = Input.GetAxisRaw("Vertical");
 

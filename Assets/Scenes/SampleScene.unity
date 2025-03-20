@@ -18518,7 +18518,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 2061176677}
   playerRot: {fileID: 1441362238}
-  moveForce: 0.05
+  moveForce: 0.04
+  runMoveForce: 0.05
   maxSpeed: 0.025
   drag: 0.9
 --- !u!136 &593925763
